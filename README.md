@@ -1,3 +1,4 @@
+# EE/CS120A
 LOGIC DESIGN
 
 Using System Verilog :: EDA Playground
