@@ -1,0 +1,21 @@
+// Code your design here
+`timescale 1ns / 1ps
+
+module lab1_structural(
+// Ports I/O
+input wire Bot,
+input wire Top,
+output wire A,
+output wire B,
+output wire C,
+output wire D
+);
+  
+// Place gates and connect I/O
+// Format: gate_type arbitrary_label (output, input1, input2)
+and gate1 (A, Top, Bot);
+nand gate2 (B, Top, Bot) ;
+or gate3 (C, Top, Bot) ;
+nor gate4 (D, Top, Bot) ;
+  
+endmodule
