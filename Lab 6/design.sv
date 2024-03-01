@@ -173,10 +173,10 @@ wire[NBITS-1:0] inextq;
   
 // inextq = q+1;
 addergen_st #(.NBITS(NBITS))
-nextval(.r(inextq), 				// Next value
-        .cout(), 					// Carry out - Don't use
-        .a(q), 						// Current value
-        .b(16'b0000_0001),			// Plus One
+nextval(.r(inextq), 				      // Next value
+        .cout(), 					        // Carry out - Don't use
+        .a(q), 						        // Current value
+        .b(16'b0000_0001),			  // Plus One
         .cin(16'b0000_0000) ); 		// No carry in
   
 // Are inextq and cnt_rst equal ?
