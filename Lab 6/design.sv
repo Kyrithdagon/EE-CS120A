@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module laser_surgery_sys #( parameter NBITS = 32 ) (
   input wire button ,
   input wire clk ,
